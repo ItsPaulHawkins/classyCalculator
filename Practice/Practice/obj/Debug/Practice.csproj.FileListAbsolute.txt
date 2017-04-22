@@ -1,0 +1,7 @@
+C:\Github\practice\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Github\practice\Practice\Practice\bin\Debug\Practice.exe
+C:\Github\practice\Practice\Practice\bin\Debug\Practice.pdb
+C:\Github\practice\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache
+C:\Github\practice\Practice\Practice\obj\Debug\Practice.exe
+C:\Github\practice\Practice\Practice\obj\Debug\Practice.pdb
+C:\Github\practice\Practice\Practice\bin\Debug\jazz.wav
