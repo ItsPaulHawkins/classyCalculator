@@ -22,10 +22,7 @@ namespace Practice
             }
             else
             {
-                Console.WriteLine("You seem like a very boring individual");
-                Sleep();
-                Console.WriteLine("whatever...");
-                Sleep();
+
             }
             bool loop = true;
             while (loop == true)
@@ -33,6 +30,10 @@ namespace Practice
                 Console.WriteLine("What would you like to do?");
                 string answer = Console.ReadLine();
                 Console.WriteLine("Type the numbers you would like to " + answer + ", seperated by commas");
+                if(answer == "subtraction" || answer == "-")
+                {
+                    Console.WriteLine("Note for subtraction problems: the calculator will subtract from the first number");
+                }
                 String numbers = Console.ReadLine();
                 String[] numbersArray = numbers.Split(new string[] { "," }, StringSplitOptions.None);
                 int length = numbersArray.Length;
