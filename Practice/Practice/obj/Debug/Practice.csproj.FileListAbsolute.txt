@@ -5,3 +5,10 @@ C:\Github\practice\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyRef
 C:\Github\practice\Practice\Practice\obj\Debug\Practice.exe
 C:\Github\practice\Practice\Practice\obj\Debug\Practice.pdb
 C:\Github\practice\Practice\Practice\bin\Debug\jazz.wav
+C:\Github\classyCalculator\Practice\Practice\bin\Debug\jazz.wav
+C:\Github\classyCalculator\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Github\classyCalculator\Practice\Practice\bin\Debug\Practice.exe
+C:\Github\classyCalculator\Practice\Practice\bin\Debug\Practice.pdb
+C:\Github\classyCalculator\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache
+C:\Github\classyCalculator\Practice\Practice\obj\Debug\Practice.exe
+C:\Github\classyCalculator\Practice\Practice\obj\Debug\Practice.pdb

@@ -24,10 +24,6 @@ namespace Practice
             {
                 Console.WriteLine("You seem like a very boring individual");
                 Sleep();
-                Console.WriteLine(".");
-                Sleep();
-                Console.WriteLine(".");
-                Sleep();
                 Console.WriteLine("whatever...");
                 Sleep();
             }
@@ -49,10 +45,6 @@ namespace Practice
                     convertedInt[convertedI] = Int32.Parse(numbersArray[convertedI]);
                     convertedI++;
                 }
-
-
-
-
                 if (answer.Equals("add", StringComparison.CurrentCultureIgnoreCase) || answer.Equals("+", StringComparison.CurrentCultureIgnoreCase))
                 {
                     while (i < length)
@@ -64,14 +56,14 @@ namespace Practice
 
                 if (answer.Equals("multiply", StringComparison.CurrentCultureIgnoreCase) || answer.Equals("*", StringComparison.CurrentCultureIgnoreCase))
                 {
-                    result = 1;
+                    result = 1;  //changed result to 1 so it doesn't default the answer to 0
                     while (i < length)
                     {
                         result = result * convertedInt[i];
                         i++;
                     }
                 }
-                if (answer.Equals("division", StringComparison.CurrentCultureIgnoreCase) || answer.Equals("/", StringComparison.CurrentCultureIgnoreCase))
+                if (answer.Equals("divide", StringComparison.CurrentCultureIgnoreCase) || answer.Equals("/", StringComparison.CurrentCultureIgnoreCase))
                 {
                     result = convertedInt[0];
                     i = 1;
@@ -81,8 +73,17 @@ namespace Practice
                         i++;
                     }
                 }
+                if (answer.Equals("subtraction", StringComparison.CurrentCultureIgnoreCase) || answer.Equals("-", StringComparison.CurrentCultureIgnoreCase))
+                {
+                    result = convertedInt[0];
+                    i = 1;
+                    while (i < length)
+                    {
+                        result = convertedInt[i];
+                        i++;
+                    }
+                }
                 Console.WriteLine("Your final answer is " + result);
-                Console.ReadLine();
                 Console.WriteLine("Would you like to go again?");
                 string ifloop = Console.ReadLine();
                 if (ifloop == "yes" || ifloop == "Yes")
